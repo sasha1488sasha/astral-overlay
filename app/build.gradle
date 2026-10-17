@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cc.astral.dlcpremium'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'cc.astral.dlcpremium'
+        minSdk 23
+        targetSdk 35
+        versionCode 153
+        versionName '15.3-overlay-template'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
